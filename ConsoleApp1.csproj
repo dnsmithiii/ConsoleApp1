@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0ADDB39A-B3FC-478B-A88C-8181B09A6632}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connected Services\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Connected Services\ServiceReference1\ConsoleApp1.ServiceReference1.Capitalize_Result.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\Letters.wsdl" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WebService\AccountantPortalActivityCues.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\AccountantPortalActivityCues.wsdl" />
+    <None Include="Web References\WebService\AccountantPortalFinanceCues.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\AccountantPortalFinanceCues.wsdl" />
+    <None Include="Web References\WebService\AccountantPortalUserTasks.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\AccountantPortalUserTasks.wsdl" />
+    <None Include="Web References\WebService\Chart_of_Accounts.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\Chart_of_Accounts.wsdl" />
+    <None Include="Web References\WebService\ExcelTemplateAgedAccountsPayable.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\ExcelTemplateAgedAccountsPayable.wsdl" />
+    <None Include="Web References\WebService\ExcelTemplateAgedAccountsReceivable.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\ExcelTemplateAgedAccountsReceivable.wsdl" />
+    <None Include="Web References\WebService\ExcelTemplateBalanceSheet.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\ExcelTemplateBalanceSheet.wsdl" />
+    <None Include="Web References\WebService\ExcelTemplateCashFlowStatement.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\ExcelTemplateCashFlowStatement.wsdl" />
+    <None Include="Web References\WebService\ExcelTemplateIncomeStatement.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\ExcelTemplateIncomeStatement.wsdl" />
+    <None Include="Web References\WebService\ExcelTemplateRetainedEarnings.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\ExcelTemplateRetainedEarnings.wsdl" />
+    <None Include="Web References\WebService\ExcelTemplateTrialBalance.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\ExcelTemplateTrialBalance.wsdl" />
+    <None Include="Web References\WebService\ExcelTemplateViewCompanyInformation.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\ExcelTemplateViewCompanyInformation.wsdl" />
+    <None Include="Web References\WebService\Fields.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\Fields.wsdl" />
+    <None Include="Web References\WebService\Job_List.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\Job_List.wsdl" />
+    <None Include="Web References\WebService\Job_Planning_Lines.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\Job_Planning_Lines.wsdl" />
+    <None Include="Web References\WebService\Job_Task_Lines.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\Job_Task_Lines.wsdl" />
+    <None Include="Web References\WebService\Letters.wsdl" />
+    <None Include="Web References\WebService\miniforms.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\miniforms.wsdl" />
+    <None Include="Web References\WebService\powerbifinance.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\powerbifinance.wsdl" />
+    <None Include="Web References\WebService\Power_BI_Aged_Acc_Payable.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\Power_BI_Aged_Acc_Payable.wsdl" />
+    <None Include="Web References\WebService\Power_BI_Aged_Acc_Receivable.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\Power_BI_Aged_Acc_Receivable.wsdl" />
+    <None Include="Web References\WebService\Power_BI_Aged_Inventory_Chart.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\Power_BI_Aged_Inventory_Chart.wsdl" />
+    <None Include="Web References\WebService\Power_BI_Job_Act_v_Budg_Cost.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\Power_BI_Job_Act_v_Budg_Cost.wsdl" />
+    <None Include="Web References\WebService\Power_BI_Job_Act_v_Budg_Price.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\Power_BI_Job_Act_v_Budg_Price.wsdl" />
+    <None Include="Web References\WebService\Power_BI_Job_Profitability.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\Power_BI_Job_Profitability.wsdl" />
+    <None Include="Web References\WebService\Power_BI_Sales_Pipeline.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\Power_BI_Sales_Pipeline.wsdl" />
+    <None Include="Web References\WebService\Power_BI_Top_5_Opportunities.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\Power_BI_Top_5_Opportunities.wsdl" />
+    <None Include="Web References\WebService\Power_BI_WorkDate_Calc.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\Power_BI_WorkDate_Calc.wsdl" />
+    <None Include="Web References\WebService\purchaseDocumentLines.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\purchaseDocumentLines.wsdl" />
+    <None Include="Web References\WebService\purchaseDocuments.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\purchaseDocuments.wsdl" />
+    <None Include="Web References\WebService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WebService\salesDocumentLines.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\salesDocumentLines.wsdl" />
+    <None Include="Web References\WebService\salesDocuments.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\salesDocuments.wsdl" />
+    <None Include="Web References\WebService\SalesOrder.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\SalesOrder.wsdl" />
+    <None Include="Web References\WebService\SystemService.wsdl" />
+    <None Include="Web References\WebService\UserTaskSetComplete.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\UserTaskSetComplete.wsdl" />
+    <None Include="Web References\WebService\WorkflowActionResponse.wsdl" />
+    <None Include="Web References\WebService\workflowCustomers.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\workflowCustomers.wsdl" />
+    <None Include="Web References\WebService\workflowGenJournalBatches.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\workflowGenJournalBatches.wsdl" />
+    <None Include="Web References\WebService\workflowGenJournalLines.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\workflowGenJournalLines.wsdl" />
+    <None Include="Web References\WebService\workflowItems.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\workflowItems.wsdl" />
+    <None Include="Web References\WebService\workflowPurchaseDocumentLines.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\workflowPurchaseDocumentLines.wsdl" />
+    <None Include="Web References\WebService\workflowPurchaseDocuments.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\workflowPurchaseDocuments.wsdl" />
+    <None Include="Web References\WebService\workflowSalesDocumentLines.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\workflowSalesDocumentLines.wsdl" />
+    <None Include="Web References\WebService\workflowSalesDocuments.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\workflowSalesDocuments.wsdl" />
+    <None Include="Web References\WebService\workflowVendors.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\workflowVendors.wsdl" />
+    <None Include="Web References\WebService\workflowWebhookSubscriptions.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebService\workflowWebhookSubscriptions.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\ServiceReference1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReference1\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReference1\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:7647/DynamicsNAV110/WS/Services">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebService\</RelPath>
+      <UpdateFromURL>http://localhost:7647/DynamicsNAV110/WS/Services</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ConsoleApp1_WebService_workflowCustomers_Service</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\WebService\Services.disco" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

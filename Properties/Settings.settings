@@ -1,0 +1,144 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ConsoleApp1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConsoleApp1_WebService_workflowCustomers_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/workflowCustomers</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_salesDocuments_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/salesDocuments</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_Power_BI_Aged_Acc_Receivable_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/Power_BI_Aged_Acc_Receivable</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_ExcelTemplateCashFlowStatement_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/ExcelTemplateCashFlowStatement</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_SystemService" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/SystemService</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_workflowPurchaseDocuments_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/workflowPurchaseDocuments</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_salesDocumentLines_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/salesDocumentLines</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_Power_BI_Sales_Pipeline_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/Power_BI_Sales_Pipeline</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_purchaseDocuments_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/purchaseDocuments</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_Power_BI_Top_5_Opportunities_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/Power_BI_Top_5_Opportunities</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_workflowVendors_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/workflowVendors</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_Power_BI_Job_Act_v_Budg_Cost_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/Power_BI_Job_Act_v_Budg_Cost</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_ExcelTemplateAgedAccountsReceivable_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/ExcelTemplateAgedAccountsReceivable</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_purchaseDocumentLines_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/purchaseDocumentLines</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_Job_List_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/Job_List</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_ExcelTemplateIncomeStatement_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/ExcelTemplateIncomeStatement</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_workflowGenJournalBatches_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/workflowGenJournalBatches</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_Letters" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Codeunit/Letters</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_AccountantPortalFinanceCues_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/AccountantPortalFinanceCues</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_SalesOrder_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/SalesOrder</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_powerbifinance_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/powerbifinance</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_Power_BI_Aged_Acc_Payable_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/Power_BI_Aged_Acc_Payable</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_Power_BI_Job_Profitability_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/Power_BI_Job_Profitability</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_WorkflowActionResponse" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Codeunit/WorkflowActionResponse</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_ExcelTemplateTrialBalance_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/ExcelTemplateTrialBalance</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_workflowWebhookSubscriptions_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/workflowWebhookSubscriptions</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_workflowSalesDocuments_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/workflowSalesDocuments</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_AccountantPortalUserTasks_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/AccountantPortalUserTasks</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_Power_BI_Job_Act_v_Budg_Price_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/Power_BI_Job_Act_v_Budg_Price</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_workflowSalesDocumentLines_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/workflowSalesDocumentLines</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_Power_BI_WorkDate_Calc_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/Power_BI_WorkDate_Calc</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_Fields_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/Fields</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_ExcelTemplateRetainedEarnings_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/ExcelTemplateRetainedEarnings</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_workflowGenJournalLines_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/workflowGenJournalLines</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_ExcelTemplateAgedAccountsPayable_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/ExcelTemplateAgedAccountsPayable</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_ExcelTemplateBalanceSheet_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/ExcelTemplateBalanceSheet</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_miniforms_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/miniforms</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_Job_Task_Lines_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/Job_Task_Lines</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_Power_BI_Aged_Inventory_Chart_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/Power_BI_Aged_Inventory_Chart</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_Chart_of_Accounts_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/Chart_of_Accounts</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_Job_Planning_Lines_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/Job_Planning_Lines</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_ExcelTemplateViewCompanyInformation_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/ExcelTemplateViewCompanyInformation</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_UserTaskSetComplete_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/UserTaskSetComplete</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_workflowPurchaseDocumentLines_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/workflowPurchaseDocumentLines</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_workflowItems_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/workflowItems</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WebService_AccountantPortalActivityCues_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7647/DynamicsNAV110/WS/ReplaceWithAPercentEncodedCompanyName/Page/AccountantPortalActivityCues</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

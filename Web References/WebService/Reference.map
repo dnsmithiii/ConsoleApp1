@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/workflowCustomers" filename="workflowCustomers.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/salesDocuments" filename="salesDocuments.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/Power_BI_Aged_Acc_Receivable" filename="Power_BI_Aged_Acc_Receivable.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Codeunit/WorkflowActionResponse" filename="WorkflowActionResponse.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/ExcelTemplateCashFlowStatement" filename="ExcelTemplateCashFlowStatement.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/SystemService" filename="SystemService.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/workflowPurchaseDocuments" filename="workflowPurchaseDocuments.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/salesDocumentLines" filename="salesDocumentLines.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/Power_BI_Job_Act_v_Budg_Price" filename="Power_BI_Job_Act_v_Budg_Price.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/purchaseDocuments" filename="purchaseDocuments.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/Power_BI_Top_5_Opportunities" filename="Power_BI_Top_5_Opportunities.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/workflowVendors" filename="workflowVendors.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/Power_BI_Job_Act_v_Budg_Cost" filename="Power_BI_Job_Act_v_Budg_Cost.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/ExcelTemplateAgedAccountsReceivable" filename="ExcelTemplateAgedAccountsReceivable.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/ExcelTemplateRetainedEarnings" filename="ExcelTemplateRetainedEarnings.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/UserTaskSetComplete" filename="UserTaskSetComplete.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/Job_List" filename="Job_List.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/ExcelTemplateIncomeStatement" filename="ExcelTemplateIncomeStatement.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/workflowItems" filename="workflowItems.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/workflowGenJournalBatches" filename="workflowGenJournalBatches.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Codeunit/Letters" filename="Letters.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/AccountantPortalFinanceCues" filename="AccountantPortalFinanceCues.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/SalesOrder" filename="SalesOrder.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/Power_BI_Job_Profitability" filename="Power_BI_Job_Profitability.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/powerbifinance" filename="powerbifinance.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/ExcelTemplateTrialBalance" filename="ExcelTemplateTrialBalance.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/workflowWebhookSubscriptions" filename="workflowWebhookSubscriptions.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/ExcelTemplateBalanceSheet" filename="ExcelTemplateBalanceSheet.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/Chart_of_Accounts" filename="Chart_of_Accounts.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/AccountantPortalUserTasks" filename="AccountantPortalUserTasks.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/Power_BI_Aged_Acc_Payable" filename="Power_BI_Aged_Acc_Payable.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/Power_BI_WorkDate_Calc" filename="Power_BI_WorkDate_Calc.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/Fields" filename="Fields.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/workflowSalesDocuments" filename="workflowSalesDocuments.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/workflowGenJournalLines" filename="workflowGenJournalLines.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/ExcelTemplateAgedAccountsPayable" filename="ExcelTemplateAgedAccountsPayable.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/AccountantPortalActivityCues" filename="AccountantPortalActivityCues.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/miniforms" filename="miniforms.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://localhost:7647/DynamicsNAV110/WS/Services" filename="Services.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/Job_Task_Lines" filename="Job_Task_Lines.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/Power_BI_Aged_Inventory_Chart" filename="Power_BI_Aged_Inventory_Chart.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/Power_BI_Sales_Pipeline" filename="Power_BI_Sales_Pipeline.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/Job_Planning_Lines" filename="Job_Planning_Lines.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/ExcelTemplateViewCompanyInformation" filename="ExcelTemplateViewCompanyInformation.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/purchaseDocumentLines" filename="purchaseDocumentLines.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/workflowPurchaseDocumentLines" filename="workflowPurchaseDocumentLines.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:7647/DynamicsNAV110/WS/Page/workflowSalesDocumentLines" filename="workflowSalesDocumentLines.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="urn:microsoft-dynamics-schemas/codeunit/Letters" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/Letters" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <schema elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/Letters" xmlns="http://www.w3.org/2001/XMLSchema">
+      <element name="Capitalize">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="paramInput" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="Capitalize_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+  </types>
+  <message name="Capitalize">
+    <part name="parameters" element="tns:Capitalize" />
+  </message>
+  <message name="Capitalize_Result">
+    <part name="parameters" element="tns:Capitalize_Result" />
+  </message>
+  <portType name="Letters_Port">
+    <operation name="Capitalize">
+      <input name="Capitalize" message="tns:Capitalize" />
+      <output name="Capitalize_Result" message="tns:Capitalize_Result" />
+    </operation>
+  </portType>
+  <binding name="Letters_Binding" type="tns:Letters_Port">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <operation name="Capitalize">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/Letters:Capitalize" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="Capitalize">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="Capitalize_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Letters">
+    <port name="Letters_Port" binding="tns:Letters_Binding">
+      <address location="http://laptop-762gbimg:7647/DynamicsNAV110/WS/CRONUS%20USA%252C%20Inc./Codeunit/Letters" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </port>
+  </service>
+</definitions>
